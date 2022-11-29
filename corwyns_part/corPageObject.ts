@@ -2,6 +2,9 @@ import { By } from "selenium-webdriver";
 import { BasePage } from "../basePage";
 
 export class CorP extends BasePage {
+<<<<<<< HEAD
+    popUp: By = By.xpath('//div[@class="x-el x-el-div c1-1 c1-2 c1-r c1-4t c1-5r c1-5s c1-4u c1-12 c1-u c1-dp c1-45 c1-b c1-c c1-d c1-e c1-f c1-g"]')   
+=======
     popUp: By = By.xpath('//div[@class="x-el x-el-div c1-1 c1-2 c1-r c1-4t c1-5r c1-5s c1-4u c1-12 c1-u c1-dp c1-45 c1-b c1-c c1-d c1-e c1-f c1-g"]')
     getInTouch: By = By.xpath('//a[@data-aid="HEADER_CTA_BTN"]')
     moreBtn: By = By.xpath('//a[@id="1"]')
@@ -21,6 +24,7 @@ export class CorP extends BasePage {
     homeBtn: By = By.xpath('(//li[@class="x-el x-el-li nav-item c1-1 c1-2 c1-53 c1-3m c1-54 c1-1k c1-55 c1-3q c1-56 c1-57 c1-1o c1-58 c1-b c1-c c1-59 c1-5a c1-d c1-e c1-f c1-g visible"])[1]')
     homeBtn2: By = By.xpath('(//li[@role="menuitem"])[10]')
     simCaptchaBtn2: By = By.xpath('(//li[@role="menuitem"])[17]')
+>>>>>>> 88c5da4dd75c6ec497aad3377924070c84c4487a
     constructor() {
         super({url: "https://candymapper.com/"})
     }
