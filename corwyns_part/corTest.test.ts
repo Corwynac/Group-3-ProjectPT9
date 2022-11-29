@@ -13,7 +13,7 @@ test("Get in Touch button", async ()=>{
 //    await Cor.driver.quit()
 })
 
-test("Verify if I am not a Camera", async ()=> {
+test("I am Camera", async ()=> {
 //    await Cor.closePop()
  //   await Cor.click(Cor.homeBtn)
 //    await Cor.simCaptchaPage()
@@ -23,7 +23,7 @@ test("Verify if I am not a Camera", async ()=> {
  //   await Cor.driver.quit()
 })
 
-test("Verify if I am not a Skeleton", async ()=> {
+test("I am a Skeleton", async ()=> {
  //   await Cor.closePop()
     await Cor.click(Cor.camBtn)
 //    await Cor.simCaptchaPage()
