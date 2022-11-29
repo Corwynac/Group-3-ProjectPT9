@@ -2,6 +2,13 @@ import { suePage } from "./suePageObject";
 
 const Sue = new suePage()
 
-test("Close that popup", async ()=> {
-    await Sue.closePop()
+describe("Sues Part", () => {
+    test("Close that popup", async ()=> {
+        await Sue.closePop()
+    })
+
+    test("Chat Box", async() => {
+        await Sue.click(Sue.chatBox)
+        
+    })
 })
