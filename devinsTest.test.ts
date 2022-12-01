@@ -18,6 +18,7 @@ describe("Launch CandyMapper Map", () => {
 describe("Submit a Bug", () => {
     test("Launch Submit Bug Bash Defects", async () => {
         await page.click(page.submitBug)
+        await page.driver.quit()
     })
 })
 
@@ -26,7 +27,6 @@ describe("Submit a Bug", () => {
 //     test("Can we search on CandyMapper", async () => {
 //         await page.driver.sleep(3000)
 //         await page.click(page.searchBar)
-//         await page.driver.sleep(3000)
 //         await page.driver.sleep(3000)
 //         await page.sendKeys(page.searchBar, "Candy")
 //         await page.click(page.goButton)
