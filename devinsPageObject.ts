@@ -14,6 +14,7 @@ export class devinsPage extends BasePage {
     }
 
     async closepopup () {
+        await this.driver.manage().window().maximize()
         await this.navigate()
         await this.click(this.popUp)
 
