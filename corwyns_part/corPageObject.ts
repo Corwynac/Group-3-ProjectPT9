@@ -25,6 +25,7 @@ export class CorP extends BasePage {
         super({url: "https://candymapper.com/"})
     }
     async closePop() {
+        await this.driver.manage().window().maximize()
         await this.navigate(this.url)
         await this.click(this.popUp)
     }

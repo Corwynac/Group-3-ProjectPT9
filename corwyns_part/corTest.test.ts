@@ -37,7 +37,7 @@ test("I am a Skeleton", async ()=> {
 test("Verify if I am not a Robot", async ()=> {
     await Cor.click(Cor.skeleBtn)
  //   await Cor.closePop()
-    await Cor.simCaptchaPage()
+    await Cor.click(Cor.getInTouch)
     await Cor.click(Cor.simWaterBtn)
     let value3 = await Cor.driver.findElement(Cor.waterHeader).getText()
     expect(value3.toLowerCase()).toContain("complicated")
